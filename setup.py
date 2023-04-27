@@ -33,7 +33,7 @@ setup(name='mynnunet',
       ],
       entry_points={
           'console_scripts': [
-              'nnUNetv2_train = nnunetv2.run.run_training:run_training_entry',  # api available
+              'mynnUNet_train = mynnunet.run.run_training:run_training_entry',  # api available
           ],
       },
       keywords=['deep learning', 'image segmentation', 'medical image analysis',
